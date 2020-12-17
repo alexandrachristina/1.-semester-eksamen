@@ -1,0 +1,1024 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  background-color: #e7d7ca;
+  font-family: 'Old Standard TT', serif;
+}
+
+h1, h2 {
+  font-family: 'News Cycle', sans-serif;
+}
+h3, h4, h5, p {
+  font-family: 'Old Standard TT', serif;
+}
+
+.logo {
+  height: 85px;
+  margin-left: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0px;
+  display: inline-block;
+  width: 100%;
+  background-color: black;
+  margin: 0px;
+}
+
+nav li {
+  display: inline-block;
+  float: right;
+  font-family: 'Epilogue', sans-serif;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  padding: 14px 18px;
+  text-decoration: none;
+  text-align: center;
+  border-right: 1px solid white;
+}
+
+nav li:last-child {
+  border-right: none;
+}
+
+nav li a:hover {
+  text-decoration: underline;
+}
+
+/*Rest of the text on front page*/
+.welcome_to_my {
+  display: block;
+  text-align: center;
+  color: white;
+  font-weight: normal;
+  font-size: 80px;
+  margin: 0px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: 'News Cycle', sans-serif;
+}
+
+.video_mig {
+  width: 70%;
+  margin-left: 320px;
+}
+
+.info_om_mig {
+  border: 1px solid white;
+  line-height: 1.7;
+  text-align: center;
+  width: 50%;
+  padding: 10px;
+  margin-left: 370px;
+  line-height: 200%;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+/*about me*/
+.aboutmeoverskrift {
+  display: block;
+  text-align: center;
+  color: white;
+  font-weight: normal;
+  font-size: 80px;
+  margin: 0px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-family: 'News Cycle', sans-serif;
+}
+
+/*Alle boxes*/
+.about_me {}
+
+/*text og billede 1*/
+.box-1 {
+  display: flex;
+  flex-direction: row;
+  margin-left: 240px;
+  margin-bottom: 100px;
+}
+
+.about_me_1 {
+  border: 1px solid white;
+  line-height: 1.5;
+  padding: 35px;
+  width: 500px;
+  font-size: 20px;
+  height: 400px;
+  padding-top: 100px;
+}
+
+.mig {
+  width: 300px;
+  height: 500px;
+  margin-left: 120px;
+  margin-top: 140px;
+}
+
+/*text and photo 2*/
+.box-2 {
+  display: flex;
+  flex-direction: row;
+  margin-left: 330px;
+  margin-bottom: 100px;
+}
+
+.about_me_2 {
+  border: 1px solid white;
+  line-height: 1.5;
+  padding: 35px;
+  width: 500px;
+  font-size: 20px;
+  margin-left: 120px;
+  margin-top: -20px;
+}
+
+.migmig {
+  width: 300px;
+  height: 450px;
+  margin-top: -250px;
+}
+
+/*text and photo 3*/
+.box-3 {
+  display: flex;
+  flex-direction: row;
+  margin-left: 180px;
+  margin-bottom: 100px;
+}
+
+.about_me_3 {
+  border: 1px solid white;
+  line-height: 1.5;
+  padding: 35px;
+  width: 500px;
+  font-size: 20px;
+  height: 400px;
+  padding-top: 65px;
+  margin-top: -300px;
+}
+
+.migmigmig {
+  width: 300px;
+  height: 500px;
+  margin-left: 150px;
+  margin-top: -30px;
+}
+
+/*text and photo 4*/
+.box-4 {
+  display: flex;
+  flex-direction: row;
+  margin-left: 220px;
+  margin-bottom: 100px;
+}
+
+.about_me_4 {
+  border: 1px solid white;
+  line-height: 1.5;
+  padding: 35px;
+  width: 500px;
+  font-size: 20px;
+  margin-left: 120px;
+  margin-top: -30px;
+}
+
+.migmigmigmig {
+  width: 400px;
+  height: 450px;
+  margin-top: -390px;
+}
+
+.cv {
+  display: inline;
+  background-color: white;
+  border: 1px solid black;
+  padding: 10px;
+  margin-left: 230px;
+  position: absolute;
+  margin-top:-165px;
+  margin-bottom: 100px;
+}
+
+.cv a {
+  text-decoration: none;
+  color: black;
+}
+
+.cv:hover {
+  text-decoration: underline;
+}
+
+/*MY WORK*/
+.my_work {
+  display: flex;
+  flex-direction: row;
+  margin-left: 240px;
+  margin-top: 30px;
+  margin-bottom: 150px;
+}
+
+/*link*/
+.photography {
+  width: 250px;
+  height: 350px;
+  opacity: 70%;
+}
+
+.photography_text {
+  color: black;
+  letter-spacing: 2px;
+  font-size: 20px;
+  margin-left: 35px;
+}
+
+.photography:hover {
+  opacity: 1;
+}
+
+/*My photos - underside */
+.overskrift_my_photos {
+  margin-left: 500px;
+}
+
+.my_photos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row1 {
+  margin-left: 100px;
+  margin-bottom: 50px;
+}
+
+.anastasia {
+  width: 400px;
+  height: 500px;
+}
+
+.maria_1 {
+  width: 350px;
+  height: 500px;
+  margin-left: 50px;
+}
+
+.camilla {
+  width: 350px;
+  height: 500px;
+  margin-left: 50px;
+}
+
+.row2 {
+  margin-left: 100px;
+  margin-bottom: 50px;
+}
+
+.seva1 {
+  width: 400px;
+  height: 500px;
+}
+
+.agos {
+  width: 350px;
+  height: 500px;
+  margin-left: 50px;
+}
+
+.nastya1 {
+  width: 350px;
+  height: 500px;
+  margin-left: 50px;
+}
+
+.row3 {
+  margin-left: 120px;
+  margin-bottom: 50px;
+}
+
+.maria {
+  width: 350px;
+  height: 530px;
+}
+
+.anso {
+  width: 350px;
+  height: 530px;
+  margin-left: 80px;
+}
+
+.agos1 {
+  width: 350px;
+  height: 530px;
+  margin-left: 53px;
+}
+
+.row4 {
+  margin-left: 120px;
+  margin-bottom: 100px;
+}
+
+.lj {
+  width: 350px;
+  height: 530px;
+}
+
+.couple {
+  width: 350px;
+  height: 530px;
+  margin-left: 83px;
+}
+
+.eli {
+  width: 350px;
+  height: 530px;
+  margin-left: 50px;
+}
+
+.arrow_up_photo {
+  font-size: 30px;
+  color: grey;
+  float: right;
+  margin-top: 500px;
+  margin-left: 5px;
+}
+
+/*My photos slut*/
+/*My design*/
+.design {
+  width: 250px;
+  height: 350px;
+  opacity: 70%;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.design_text {
+  color: black;
+  letter-spacing: 2px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.design:hover {
+  opacity: 1;
+}
+
+/*undersiden*/
+.overskrift_my_design {
+  text-align: center;
+}
+
+.text_my_design {
+  text-align: center;
+  margin-left: 80px;
+  line-height: 1.5;
+  margin-bottom: 50px;
+}
+
+.design_row1 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+  margin-left: 160px;
+}
+
+.plants {
+  width: 300px;
+  height: 300px;
+}
+
+.avo {
+  width: 300px;
+  height: 300px;
+  margin-left: 100px;
+}
+
+.cup {
+  width: 300px;
+  height: 300px;
+  margin-left: 100px;
+}
+
+.design_row2 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+  margin-left: 160px;
+}
+
+.alogo {
+  width: 300px;
+  height: 300px;
+}
+
+.plogo {
+  width: 300px;
+  height: 300px;
+  margin-left: 100px;
+}
+
+.webicons {
+  width: 300px;
+  height: 300px;
+  margin-left: 100px;
+}
+
+/*My design slut*/
+/*My video*/
+.video {
+  width: 250px;
+  height: 350px;
+  opacity: 70%;
+}
+
+.video_overskrift {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.videoklip {
+  margin-left: 400px;
+  margin-bottom: 100px;
+}
+
+
+.video_text {
+  color: black;
+  letter-spacing: 2px;
+  font-size: 20px;
+  margin-left: 90px;
+}
+
+.video:hover {
+  opacity: 1;
+}
+
+/*My video slut*/
+
+
+/*My work slut*/
+/*contact*/
+.contact_text {
+  font-weight: normal;
+  text-align: center;
+}
+
+#overskrift {
+  font-size: 30px;
+  margin-top: 40px;
+  margin-left: 335px;
+}
+
+.contact_form {
+  background: #b7b7a4;
+  margin-left: 262px;
+  height: 400px;
+  width: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  opacity: 90%;
+  margin-bottom: 40px;
+}
+
+#name {
+  margin-top: 10px;
+  margin-left: 15px;
+  width: 320px;
+}
+
+.name {
+  margin-left: 30px;
+}
+
+#email {
+  margin-top: 10px;
+  margin-left: 15px;
+  width: 320px;
+}
+
+.email {
+  margin-left: 50px;
+}
+
+#subject {
+  margin-top: 90px;
+  width: 730px;
+  margin-left: 27px;
+}
+
+.subject {
+  margin-left: 30px;
+}
+
+.submit {
+  margin-left: 800px;
+  margin-top: 25px;
+  width: 100px;
+  height: 40px;
+}
+
+.fb {
+  font-size: 37px;
+  list-style-type: none;
+  display: inline;
+  margin-left: 260px;
+  color: black;
+}
+
+.insta {
+  font-size: 40px;
+  list-style-type: none;
+  display: inline;
+  margin-left: 15px;
+  color: black;
+}
+
+.social {
+  margin-bottom: 20px;
+}
+
+/*EDUCATION - HOVEDSIDEN*/
+.semesters_text {
+  text-align: center;
+  font-size: 25px;
+  margin-left: 25px;
+
+}
+
+.semesters_text_under {
+  font-size: 17px;
+  text-align: center;
+  margin-bottom: 7px;
+  margin-left: 25px;
+
+}
+
+.container_semesters {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.container_semesters ul {
+list-style-type: none;
+}
+
+
+.edu_row1 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+  margin-left:20px;
+}
+
+
+
+.edu_row2 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+  margin-left:20px;
+
+}
+
+
+
+.flow1 {
+  width: 300px;
+  height: 200px;
+  margin-left: 300px;
+  opacity: 50%;
+}
+
+.flow1:hover {
+  opacity: 1;
+}
+
+.overskrift_sem1 {
+  display: inline;
+  margin-left: 410px;
+  font-size: 18px;
+}
+
+.flow2 {
+  width: 300px;
+  height: 200px;
+  margin-left:100px;
+  opacity: 50%;
+}
+
+.flow2:hover {
+  opacity: 1;
+}
+
+.overskrift_sem2 {
+  display: inline;
+  margin-left: 210px;
+  font-size: 18px;
+}
+
+.flow3 {
+  width: 300px;
+  height: 200px;
+  margin-left: 300px;
+  opacity: 50%;
+}
+
+.flow3:hover {
+  opacity: 1;
+}
+
+
+.overskrift_sem3 {
+  display: inline;
+  margin-left: 400px;
+  font-size: 18px;
+}
+
+
+.flow4 {
+  width: 300px;
+  height: 200px;
+  margin-left:100px;
+  opacity: 50%;
+}
+
+.flow4:hover {
+  opacity: 1;
+}
+
+.overskrift_sem4 {
+  display: inline;
+  margin-left: 210px;
+  font-size: 18px;
+}
+
+
+
+/*1semester*/
+
+/*flowpage1*/
+.semesteroverskrift {
+text-align: center;
+ margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.flowpage1 {
+  list-style-type: none;
+  padding: 0;
+  margin-left: 230px;
+}
+
+.flowpage1 li {
+  display: inline;
+  font-weight: 100;
+  border: 1px solid grey;
+  text-align: center;
+  padding: 7px 25px 7px 25px;
+  margin-left: 80px;
+}
+
+.flowpage1 li a {
+  text-decoration: none;
+  color: black;
+}
+
+.activeflow {
+  background-color: #b7b7a4;
+}
+
+
+.flow_overskrift {
+  text-align: center;
+  margin-top: 40px;
+}
+
+
+
+
+
+/*Bokse osv*/
+.projektbeskrivelse {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #b7b7a4;
+  width: 60%;
+  margin-left: 290px;
+  padding:10px;
+}
+
+.projektbeskrivelse_overskrift {
+margin-left: 320px;
+margin-top: 30px;
+}
+
+.projektbeskrivelse_tekst {
+  text-align: left;
+line-height: 150%;
+padding:0px 50px 50px 50px;
+
+}
+
+.imgflow1 {
+  width: 500px;
+  height:300px;
+  margin-top:-40px;
+  margin-left: 800px;
+}
+
+.selve_opgaven {
+  background-color: #ddbea9;
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  margin-left: 290px;
+  margin-top: 70px;
+
+}
+
+
+.flowproject_overskrift {
+  margin-left: 350px;
+  margin-top:30px;
+}
+
+.gammelportfolio {
+  width: 776px;
+}
+
+.description {
+  margin-top: 10px;
+  line-height: 1.5;
+  width: 778px;
+  border: 1px solid black;
+  padding: 15px;
+}
+
+
+
+
+.feedback {
+  background-color: #f0efeb;
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  padding:10px;
+  margin-top: 70px;
+  margin-left: 140px;
+}
+
+
+.feedback_overskrift {
+  margin-left: 500px;
+  margin-top:30px;
+
+
+}
+
+.feedback_text {
+  margin-top: 10px;
+  line-height: 1.2;
+  width: 778px;
+  padding: 15px;
+  margin-left: 170px;
+}
+
+
+.aendringer {
+  background-color: #ddbea9;
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  margin-left: 290px;
+  margin-top: 70px;
+
+}
+
+.changes_overskrift {
+  margin-left: 300px;
+  margin-top:30px;
+}
+
+.nyportfolio {
+  width: 778px;
+}
+
+.changes_text {
+  margin-top: 10px;
+  line-height: 1.5;
+  width: 778px;
+  padding: 15px;
+  margin-left:-12px;
+}
+
+.seportknap {
+  display: inline;
+  background-color: white;
+  border: 1px solid black;
+  padding: 10px;
+  margin-top: 100px;
+}
+
+.seportknap a {
+  text-decoration: none;
+  color: black;
+}
+
+
+.seportknap1 {
+  display: inline;
+  background-color: white;
+  border: 1px solid black;
+  padding: 10px;
+  margin-left: 40px;
+  margin-top: -7px;
+}
+
+.seportknap1 a {
+  text-decoration: none;
+  color: black;
+}
+
+
+
+.learned {
+  background-color: #b7b7a4;
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  padding:10px;
+  margin-top: 70px;
+  margin-left: 140px;
+  margin-bottom: 100px;
+
+}
+
+.learned_overskrift {
+  margin-left: 430px;
+  margin-top:30px;
+}
+
+.learned_text {
+  margin-top: 10px;
+  line-height: 1.2;
+  width: 778px;
+  padding: 15px;
+  margin-left: 170px;
+
+}
+
+
+.gammelportfolio1 {
+  margin-top: 10px;
+  width: 776px;
+  }
+
+.nyportfolio1 {
+  width: 778px;
+margin-top: 10px;
+}
+
+.arrow_up_1sem1 {
+  font-size: 30px;
+  color: grey;
+  float: right;
+  margin: 20px;
+  margin-top: -50px;
+}
+
+.arrow_up:hover {
+  color: white;
+}
+
+
+
+.palette {
+  width:25%;
+}
+
+.flow5_overskrift {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.headline_body {
+  width: 50%;
+}
+
+
+.skitse {
+  width:49%;
+}
+.logoskitse{
+  width:40%;
+}
+
+.logoskitse1 {
+  width:25%;
+}
+
+.videoscreen {
+  width:70%;
+}
+
+
+.feedback {
+  background-color: #f0efeb;
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  padding:10px;
+  margin-top: 70px;
+  margin-left: 140px;
+  padding-bottom: 80px;
+}
+
+.change_overskrift {
+  margin-left: 430px;
+}
+
+.flowh3 {
+  margin-left: 500px;
+}
+
+.flowchange {
+  line-height: 1.5;
+  width: 778px;
+  padding: 15px;
+  margin-left: 170px;
+}
+
+
+.gotoflow {
+  display: inline;
+  background-color: white;
+  border: 1px solid black;
+  padding: 10px;
+  margin-left: 480px;
+position:absolute;
+margin-top:-20px;
+}
+
+.gotoflow a {
+  text-decoration: none;
+  color: black;
+}
+
+.github {
+  display: inline;
+  background-color: white;
+  border: 1px solid black;
+  padding: 10px;
+  position:absolute;
+  margin-top:-80px;
+  margin-left:140px;
+  }
+
+
+.boxflowchange {
+  margin-top:30px;
+}
+
+
+.eksamensprojektknap {
+  display: inline;
+  background-color: white;
+  border: 1px solid black;
+  padding: 10px;
+  margin-left: 290px;
+  position:absolute;
+
+}
+  .eksamensprojektknap a {
+  text-decoration: none;
+  color: black;
+  }
+
+  .github a {
+  text-decoration: none;
+  color: black;
+  }
+
+
+/*EDUCATION SLUT*/
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f0efeb;
+  color: black;
+  text-align: center;
+  height: 40px;
+  opacity: 70%;
+  text-align: center;
+  padding: 0.02px 0;
+}
